@@ -1,70 +1,184 @@
-# React.js and Tailwind CSS Assignment
 
-This assignment focuses on building a responsive React application using JSX and Tailwind CSS, implementing component architecture, state management, hooks, and API integration.
 
-## Assignment Overview
+# 📘 React JS – JSX & CSS Mastering Front-End Development
 
-You will:
-1. Set up a React project with Vite and Tailwind CSS
-2. Create reusable UI components
-3. Implement state management using React hooks
-4. Integrate with external APIs
-5. Style your application using Tailwind CSS
+### **PLP MERN Stack Development – Week 3 Assignment**
 
-## Getting Started
+This project is a React front-end application built as part of the *Power Learn Project (PLP) MERN Stack Development* program.
+It demonstrates JSX, component structure, Tailwind CSS, routing, API integration, and theme context usage.
 
-1. Accept the GitHub Classroom assignment invitation
-2. Clone your personal repository that was created by GitHub Classroom
-3. Install dependencies:
-   ```
-   npm install
-   ```
-4. Start the development server:
-   ```
-   npm run dev
-   ```
+---
 
-## Files Included
+## 🚀 **Live Deployment**
 
-- `Week3-Assignment.md`: Detailed assignment instructions
-- Starter files for your React application:
-  - Basic project structure
-  - Pre-configured Tailwind CSS
-  - Sample component templates
+My project is successfully deployed on Vercel:
 
-## Requirements
+👉 **[https://react-js-jsx-and-css-mastering-front-end-development-kybch2wce.vercel.app/](https://react-js-jsx-and-css-mastering-front-end-development-kybch2wce.vercel.app/)**
+*(Required for assignment submission)*
 
-- Node.js (v18 or higher)
-- npm or yarn
-- Modern web browser
-- Code editor (VS Code recommended)
+---
 
-## Project Structure
+## 📂 **Project Structure**
 
 ```
-src/
-├── components/       # Reusable UI components
-├── pages/           # Page components
-├── hooks/           # Custom React hooks
-├── context/         # React context providers
-├── api/             # API integration functions
-├── utils/           # Utility functions
-└── App.jsx          # Main application component
+react-app/
+│── public/
+│── src/
+│   ├── components/
+│   │   ├── Navbar.jsx
+│   │   ├── Footer.jsx
+│   │   ├── Button.jsx
+│   │   ├── Card.jsx
+│   ├── pages/
+│   │   ├── Home.jsx
+│   │   ├── Tasks.jsx
+│   │   ├── ApiData.jsx
+│   ├── context/
+│   │   ├── ThemeContext.jsx
+│   ├── hooks/
+│   │   ├── useLocalStorage.js
+│   ├── App.jsx
+│   ├── main.jsx
+│── tailwind.config.js
+│── vercel.json
+│── vite.config.js
+│── package.json
 ```
 
-## Submission
+---
 
-Your work will be automatically submitted when you push to your GitHub Classroom repository. Make sure to:
+## 🛠️ **Technologies Used**
 
-1. Complete all required components and features
-2. Implement proper state management with hooks
-3. Integrate with at least one external API
-4. Style your application with Tailwind CSS
-5. Deploy your application and add the URL to your README.md
+* **React JS**
+* **React Router**
+* **Tailwind CSS**
+* **Vite**
+* **Custom Hooks**
+* **Context API (Theme Toggle)**
+* **Vercel Deployment**
 
-## Resources
+---
 
-- [React Documentation](https://react.dev/)
-- [Tailwind CSS Documentation](https://tailwindcss.com/docs)
-- [Vite Documentation](https://vitejs.dev/guide/)
-- [React Router Documentation](https://reactrouter.com/) 
+## 🧠 **Implemented Features**
+
+### ✔️ **1. Navigation Bar**
+
+* Home
+* Tasks
+* API Data
+* Toggle Theme Button
+
+### ✔️ **2. Tasks Manager**
+
+* Add tasks
+* Mark tasks as completed
+* LocalStorage persistence
+* Custom reusable Button & Card components
+
+### ✔️ **3. API Integration Page**
+
+* Fetches data from a real API
+* Displays results using styled components
+
+### ✔️ **4. Theme Context**
+
+* Global light/dark mode toggle
+* Stored using LocalStorage
+
+### ✔️ **5. Fully Responsive UI**
+
+* Tailwind CSS
+
+---
+
+## ▶️ **How to Run Locally**
+
+### **1. Clone the Repository**
+
+```bash
+git clone https://github.com/PLP-MERN-Stack-Development/react-js-jsx-and-css-mastering-front-end-development-faty-eng.git
+```
+
+### **2. Navigate into the Project**
+
+```bash
+cd react-js-jsx-and-css-mastering-front-end-development-faty-eng/react-app
+```
+
+### **3. Install Dependencies**
+
+```bash
+npm install
+```
+
+### **4. Run Development Server**
+
+```bash
+npm run dev
+```
+
+---
+
+## 🌐 **Deployment (Vercel)**
+
+### ✔️ My project was deployed using:
+
+* Vercel Git Integration
+* Root Directory set to **react-app**
+* Build Command: `npm run build`
+* Output Directory: `dist/`
+
+### ✔️ `vercel.json` included:
+
+```json
+{
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
+```
+
+---
+
+## 🖼️ **Screenshots (Add These Before Submission)**
+
+### 📌 App Homepage
+
+*(Insert Screenshot here)*
+
+### 📌 Tasks Page
+
+*(Insert Screenshot here)*
+
+### 📌 API Page
+
+*(Insert Screenshot here)*
+
+### 📌 Vercel Deployment Screenshot
+
+*(Insert Screenshot here)*
+
+---
+
+## 📜 **Assignment Completion Status**
+
+| Requirement      | Status                  |
+| ---------------- | ----------------------- |
+| React Setup      | ✅ Completed             |
+| Components       | ✅ Completed             |
+| Routing          | ✅ Completed             |
+| Custom Hooks     | ✅ Completed             |
+| Tailwind Styling | ✅ Completed             |
+| API Integration  | ✅ Completed             |
+| Context API      | ✅ Completed             |
+| Deployment       | ✅ Successfully deployed |
+| README           | ✅ Completed             |
+
+---
+
+## 🎉 **Final Note**
+
+This project successfully demonstrates a full React front-end workflow — from component architecture to deployment.
+Excellent work completing this assignment!
+
+---
