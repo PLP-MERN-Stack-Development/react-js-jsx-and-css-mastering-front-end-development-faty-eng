@@ -140,7 +140,7 @@ npm run dev
 
 ---
 
-## 🖼️ **Screenshots (Add These Before Submission)**
+## 🖼️ **Screenshots **
 
 ### 📌 App Homepage
 
